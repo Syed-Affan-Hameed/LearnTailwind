@@ -27,6 +27,9 @@ function App() {
       <h1>this is the first container div</h1>
      </div>
      </div>
+
+     <div className="bg-[url(assets/AI_Image.jpg)] bg-no-repeat h-96 bg-center bg-contain"></div>
+     <div className="gradient bg-gradient-to-t from-slate-500 to-black bg-no-repeat size-40 bg-contain mx-auto"></div>
     </>
   );
 }
