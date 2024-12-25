@@ -8,30 +8,15 @@ function App() {
 
   return (
     <>
-    <div className="h-screen">
-
-    <div className="bg-black flex">
-      <ul className="flex text-white [&>*]:flex">
-        <li><a className="p-3 hover:bg-zinc-400" href="">Home</a></li>
-        <li><a className="p-3 hover:bg-zinc-400" href="">News</a></li>
-        <li><a className="p-3 hover:bg-zinc-400" href="">Contact</a></li>
-        <li><a className="p-3 hover:bg-zinc-400" href="">About us</a></li>
-      </ul>
-    </div>
-   <div className="bg-blue-400 w-auto">
-    <h1>Learn Tailwind width</h1>
-   </div>
-   <div className="bg-blue-400 w-fit hover:w-1/2">
-    <h1>Learn Tailwind better width</h1>
-   </div>
-   <div className="bg-blue-400 h-10 min-h-7  hover:h-1/4">
-    <h1>Learn Tailwind better hieght</h1>
-   </div>
-
-   <div className="bg-blue-400 size-96 ">
-    <h1> Learn Tailwind size </h1>
-   </div>
-    </div>
+      <div className="bg-green-400  container mx-auto">
+        <h1> This is SetCount </h1>
+      </div>
+      <div className="bg-blue-300 size-96 relative">
+        <div className="bg-blue-600 size-16 absolute right-0"></div>
+        <div className="bg-red-600 size-16 absolute left-0 top-0"></div>
+        <div className="bg-yellow-600 size-16 absolute left-0 bottom-0"></div>
+        <div className="bg-violet-600 size-16 absolute right-0 bottom-0"></div>
+      </div>
     </>
   );
 }
